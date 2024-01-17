@@ -151,7 +151,7 @@ export const projectsData = [
     title: "Bible Read",
     tag: "Published",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "A Bible Reading tracking iOS Application with reading plans and notifications.",
     tags: ["Swift", "Objective C", "UX", "Core Data", "Firebase"],
     link: "https://apps.apple.com/us/app/bible-read/id1472187500",
     imageUrl: biblereadImg,
