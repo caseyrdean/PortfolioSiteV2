@@ -68,6 +68,7 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "Digitalage",
+    tag: "Project",
     description:
       "Proof of concept design and development for Digitalage company.",
     tags: ["HTMX", "TypeScript", "Alpine.js", "Tailwind", "UX"],
@@ -94,6 +95,7 @@ export const projectsData = [
   },
   {
     title: "JW.ORG",
+    tag: "Published",
     description:
       "Volunteer work: UX research methods such as surveys and usability testing",
     tags: ["UX", "Usability Testing", "Accessibility", "Figma", "Prototype"],
@@ -102,6 +104,7 @@ export const projectsData = [
   },
   {
     title: "Monsieur Marcel",
+    tag: "Published",
     description:
       "Redesigned Wordpress company's website to intregrate E-Commerce solution.",
     tags: ["PHP", "Custom Theme", "WooCommerce", "MailChimp", "UX"],
@@ -128,6 +131,7 @@ export const projectsData = [
   },
   {
     title: "Andrew Mutch DDS",
+    tag: "Published",
     description:
       "Wordpress custom PHP plugins and theme for dental clinic along with SEO.",
     tags: ["PHP", "HTML", "CSS", "Wordpress", "SEO"],
@@ -136,6 +140,7 @@ export const projectsData = [
   },
   {
     title: "Tony Barriere Interpreting",
+    tag: "Published",
     description:
       "I worked as a Web Developer & UX Designer on this Interpreting Agency in Los Angeles.",
     tags: ["HTML", "CSS", "PHP", "SEO", "Tailwind", "React"],
@@ -144,6 +149,7 @@ export const projectsData = [
   },
   {
     title: "Bible Read",
+    tag: "Published",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
     tags: ["Swift", "Objective C", "UX", "Core Data", "Firebase"],
