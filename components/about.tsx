@@ -44,6 +44,22 @@ export default function About() {
         for a <span className="font-medium">full-time position</span> as a
         software developer.
       </p>
+      <div
+        className="badge-base LI-profile-badge"
+        data-locale="en_US"
+        data-size="large"
+        data-theme="light"
+        data-type="HORIZONTAL"
+        data-vanity="software-engineer-manuel-defreitas"
+        data-version="v1"
+      >
+        <a
+          className="badge-base__link LI-simple-link"
+          href="https://www.linkedin.com/in/software-engineer-manuel-defreitas?trk=profile-badge"
+        >
+          Manuel De Freitas
+        </a>
+      </div>
     </motion.section>
   );
 }
