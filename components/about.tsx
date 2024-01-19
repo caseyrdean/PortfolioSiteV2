@@ -4,10 +4,11 @@ import React from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
+import { useDarkMode } from "usehooks-ts";
 
 export default function About() {
   const { ref } = useSectionInView("About");
-
+  const { isDarkMode } = useDarkMode();
   return (
     <motion.section
       ref={ref}
@@ -48,18 +49,11 @@ export default function About() {
         className="badge-base LI-profile-badge"
         data-locale="en_US"
         data-size="large"
-        data-theme="light"
+        data-theme={isDarkMode ? "dark" : "light"}
         data-type="HORIZONTAL"
         data-vanity="software-engineer-manuel-defreitas"
         data-version="v1"
-      >
-        <a
-          className="badge-base__link LI-simple-link"
-          href="https://www.linkedin.com/in/software-engineer-manuel-defreitas?trk=profile-badge"
-        >
-          Manuel De Freitas
-        </a>
-      </div>
+      ></div>
     </motion.section>
   );
 }
