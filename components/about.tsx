@@ -19,21 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+      I have years of experience developing web applications from conception to implementation and maintenance. My experience includes the use of front-end technologies such as HTML, CSS, JavaScript, Typescript, (React, Angular, Vue), as well as back-end with Node.js and Express, Asp.netCore8. Additionally, I have worked with relational and non-relational databases such as MySQL and MongoDB. I am a highly motivated fullstack developer with a passion for constant learning. I am also a results-oriented person with problem-solving skills and a proactive approach...
       </p>
 
       <p>
