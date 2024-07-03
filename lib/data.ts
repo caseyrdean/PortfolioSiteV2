@@ -3,8 +3,8 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import rmtdevImg from "@/public/brainware.jpeg";
+import wordanalyticsImg from "@/public/Ecommerce (2).jpeg";
 
 export const links = [
   {
@@ -12,7 +12,7 @@ export const links = [
     hash: "#home",
   },
   {
-    name: "About",
+    name: "About", 
     hash: "#about",
   },
   {
@@ -35,28 +35,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "&",
+    location: "Dominican Republic",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I am a self-taught fullstack web developer with an innate passion for learning and mastering technologies on both the frontend and backend. Through online resources, official documentation, and personal projects, I have gained solid skills in building complete web applications. My focus on self-discipline and problem solving has allowed me to develop not only deep technical knowledge, but also the ability to quickly adapt to new frameworks and tools. I am committed to continuous improvement and always looking for opportunities to apply my skills in challenging and meaningful projects",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Front-End",
+    location: "Dominican Republic",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Currently, I am actively searching for job opportunities as a fullstack developer. I have a solid self-taught background in web development, with experience in both frontend and backend. I am excited to apply my skills on innovative projects and collaborate on dynamic teams that value continuous learning and technical excellence. With a meticulous focus on code quality and final product usability, I am ready to positively contribute to the success of any company that values ​​innovation and technological development.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2024",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Dominican Republic",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I am excited to expand my knowledge in fullstack development and am dedicated to continuing to learn and improve my skills in this area. As a passionate and self-taught developer, I have a strong commitment to continuous learning and am motivated to explore new technologies, frameworks and practices that allow me to grow professionally. I am excited to take on new challenges and become a more well-rounded fullstack developer, capable of meaningfully contributing to innovative projects and dynamic development teams.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "present",
   },
 ] as const;
 
@@ -65,21 +65,21 @@ export const projectsData = [
     title: "CorpComment",
     description:
       "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+    tags: ["React", "Next.js", "MongoDB", "Tailwind",],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: " Modern website ",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Brainwave - Modern UI/UX website, developed using React.js and Tailwind CSS, exemplifies modern UI/UX principles. Its sleek design, seamless animations, and overall user experience set a high standard, serving as a reference or inspiration for future modern applications or websites in general.",
+    tags: ["React", "Tailwindcss", ],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Ecommerce With Admin Panel",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "An ecommerce web project with an administration panel offers a comprehensive platform for the management and operation of an online store. This type of system allows administrators to monitor inventory, manage products, process orders, and manage users efficiently. Additionally, it provides tools to analyze sales data, generate reports and adjust business strategies. With an intuitive interface and robust functionalities, the admin panel facilitates the online business management experience, thus promoting an optimized environment for the growth and scalability of ecommerce.",
+    tags: ["React", "Next.js", "MongoDb", "Nodejs",],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
@@ -89,19 +89,15 @@ export const skillsData = [
   "CSS",
   "JavaScript",
   "TypeScript",
+  "Angular",
+  "Vue",
   "React",
-  "Next.js",
   "Node.js",
   "Git",
+  "Github",
   "Tailwind",
-  "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
+  "Asp.netCore8",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "MySQL",
 ] as const;
