@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
@@ -9,10 +9,20 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import { fetchPhotoURL } from "@/lib/firebaseUtil";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
+  const [photoURL, setPhotoURL] = useState<string | null>(null);
+
+  useEffect(() => {
+    const getPhoto = async () => {
+      const url = await fetchPhotoURL("suit1_cropped.jpg");
+      setPhotoURL(url);
+    };
+    getPhoto();
+  }, [setPhotoURL]);
 
   return (
     <section
@@ -32,7 +42,7 @@ export default function Intro() {
           >
             <Image
               // src="https://drive.google.com/file/d/1KF9cK8Xzg9SWvMnswLzKfuVkt2-TsfLI/view?usp=drive_link"
-              src="https://drive.google.com/file/d/1KF9cK8Xzg9SWvMnswLzKfuVkt2-TsfLI/view?usp=sharing"
+              src={photoURL ?? ""}
               alt="Elias Shemsu"
               width="192"
               height="192"
