@@ -41,7 +41,6 @@ export default function Intro() {
             }}
           >
             <Image
-              // src="https://drive.google.com/file/d/1KF9cK8Xzg9SWvMnswLzKfuVkt2-TsfLI/view?usp=drive_link"
               src={photoURL ?? ""}
               alt="Elias Shemsu"
               width="192"
@@ -77,10 +76,10 @@ export default function Intro() {
         <span className="font-bold">full-stack developer</span> with{" "}
         <span className="font-bold">2 years</span> of experience. I enjoy
         building <span className="italic">sites & apps</span>. I specialize in{" "}
-        <span className="underline">
-          Next.js and Native Android app development.
-        </span>
-        .
+        <span className="underline">Next.js</span>
+        <span> and </span>
+        <span className="underline">Native Android</span>
+        <span> app development.</span>
       </motion.h1>
 
       <motion.div
