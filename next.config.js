@@ -4,10 +4,11 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "images.unsplash.com",
+        hostname: "drive.google.com",
       },
     ],
   },
+
   experimental: {
     serverActions: true,
   },
