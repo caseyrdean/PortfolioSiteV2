@@ -18,31 +18,25 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+      <p className="mb-6">
+        I’ve got about 5 years of industry experience in software development.
+        I’ve always given strict emphasis to a suitable development lifecycle,
+        customized to prioritize release without compromising app architecture
+        or functional integrity. I hold in high regard team mates from different
+        departments, and it has long been my responsibility to interact with
+        clients and stakeholders to communicate user requirements, deliver
+        updates, managing crisis, and overall overseeing of operations.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        <span>When I'm not coding I enjoy </span>
+        <span className="italic">playing video games, watching movies, </span>
+        and
+        <span className="italic"> spending time with friends.</span> I enjoy
+        socializing with strangers that share my passion. I like building giant
+        things out of small things. I like harmony. I like order (66). It's a
+        great feeling when the little things I build act in harmony to create
+        something big.
       </p>
     </motion.section>
   );
