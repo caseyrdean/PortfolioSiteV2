@@ -19,8 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-6">
-        I’ve got about 5 years of industry experience in software development.
-        I’ve always given strict emphasis to a suitable development lifecycle,
+        I’ve always given emphasis to a suitable development lifecycle,
         customized to prioritize release without compromising app architecture
         or functional integrity. I hold in high regard team mates from different
         departments, and it has long been my responsibility to interact with
@@ -34,9 +33,7 @@ export default function About() {
         and
         <span className="italic"> spending time with friends.</span> I enjoy
         socializing with strangers that share my passion. I like building giant
-        things out of small things. I like harmony. I like order (66). It's a
-        great feeling when the little things I build act in harmony to create
-        something big.
+        things out of small things that have harmony. I like order (66).
       </p>
     </motion.section>
   );

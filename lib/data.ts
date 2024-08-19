@@ -5,6 +5,10 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import { MdGamepad } from "react-icons/md";
+import { FaMobileAlt } from "react-icons/fa";
+import { MdOutlineMonitor } from "react-icons/md";
+import { LuMonitor } from "react-icons/lu";
 
 export const links = [
   {
@@ -35,29 +39,53 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Unity Game UI Developer / Programmer",
+    location: "Chewata Awaqi",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      "Served as the solo developer of Mela, an interactive storytelling game where the choices you make will impact the ending.",
+    icon: React.createElement(MdGamepad),
+    date: "2019 - 2020",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Lead Android App Developer",
+    location: "3BL Enterprises",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "Lead developer for Flowius Manage, Flowius Pay and Flowius Survey Android apps.",
+    icon: React.createElement(FaMobileAlt),
+    date: "2022 - 2024",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Lead Front End Developer",
+    location: "3BL Enterprises",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Lead developer for Flowius Manage and Flowius Pay web apps.",
+    icon: React.createElement(MdOutlineMonitor),
+    date: "2022 - 2024",
   },
+  // {
+  //   title: "Graduated bootcamp",
+  //   location: "Miami, FL",
+  //   description:
+  //     "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+  //   icon: React.createElement(LuGraduationCap),
+  //   date: "2019",
+  // },
+  // {
+  //   title: "Front-End Developer",
+  //   location: "Orlando, FL",
+  //   description:
+  //     "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+  //   icon: React.createElement(CgWorkAlt),
+  //   date: "2019 - 2021",
+  // },
+  // {
+  //   title: "Full-Stack Developer",
+  //   location: "Houston, TX",
+  //   description:
+  //     "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+  //   icon: React.createElement(FaReact),
+  //   date: "2021 - present",
+  // },
 ] as const;
 
 export const projectsData = [
@@ -82,9 +110,25 @@ export const projectsData = [
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
   },
+  {
+    title: "Flowius Manage",
+    description:
+      "A proprietary management app for 3BL Enterprises. Users can monitor and manage project activities, inventory, and special cases.",
+    tags: ["React", "TypeScript", "Firebase", "Kotlin", "Android SDK", "Mapbox"],
+    imageUrl: corpcommentImg,
+  },
+  {
+    title: "Flowius Pay",
+    description:
+      "A proprietary management app for 3BL Enterprises. Users can record, monitor and interpret customer payment information.",
+    tags: ["React", "JavaScript", "Firebase", "Kotlin", "Android SDK", "Mapbox"],
+    imageUrl: rmtdevImg,
+  },
 ] as const;
 
 export const skillsData = [
+  "Kotlin",
+  "Android SDK",
   "HTML",
   "CSS",
   "JavaScript",
@@ -101,7 +145,5 @@ export const skillsData = [
   "Apollo",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
 ] as const;

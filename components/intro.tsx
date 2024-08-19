@@ -73,9 +73,16 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Elias Shemsu.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">2 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. I specialize in{" "}
+        <span className="font-bold">FULL STACK </span>
+        <span>and </span>
+        <span className="font-bold">NATIVE ANDROID</span>
+        <span> developer. </span>
+        <span>I've got about </span>
+        <span className="font-bold">5 years</span>
+        <span>
+          {" "}
+          of industry experience in software development. I specialize in{" "}
+        </span>
         <span className="underline">Next.js</span>
         <span> and </span>
         <span className="underline">Native Android</span>
