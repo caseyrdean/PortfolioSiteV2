@@ -9,7 +9,7 @@ import inventoryManagement1 from "@/public/inventoryManagement1.png"
 import flowiusManage2 from "@/public/flowiusManage2.png"
 import flowiusPay5 from "@/public/flowiusPay5.jpg"
 import theRainyDayShelf1 from "@/public/theRainyDayShelf1.png"
-import brainFlow1 from "@/public/brainflow1.png"
+import brainFlow1 from "@/public/brainFlow1.png"
 import { MdGamepad } from "react-icons/md";
 import { FaMobileAlt } from "react-icons/fa";
 import { MdOutlineMonitor } from "react-icons/md";
