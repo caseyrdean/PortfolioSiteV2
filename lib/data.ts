@@ -90,6 +90,13 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "EdStock",
+    description:
+      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+    tags: ["Next.js", "Redux", "Tailwind", "Material UI", "Express.js", "PostgreSQL", "Prisma", "EC2", "RDS", "Amplify", "S3"],
+    imageUrl: corpcommentImg,
+  },
+  {
     title: "CorpComment",
     description:
       "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
