@@ -5,6 +5,11 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import inventoryManagement1 from "@/public/inventoryManagement1.png"
+import flowiusManage2 from "@/public/flowiusManage2.png"
+import flowiusPay5 from "@/public/flowiusPay5.jpg"
+import theRainyDayShelf1 from "@/public/theRainyDayShelf1.png"
+import brainFlow1 from "@/public/brainflow1.png"
 import { MdGamepad } from "react-icons/md";
 import { FaMobileAlt } from "react-icons/fa";
 import { MdOutlineMonitor } from "react-icons/md";
@@ -90,46 +95,39 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "EdStock",
+    title: "WiseStock",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "A service that manages inventory and interprets data from collected data.",
     tags: ["Next.js", "Redux", "Tailwind", "Material UI", "Express.js", "PostgreSQL", "Prisma", "EC2", "RDS", "Amplify", "S3"],
-    imageUrl: corpcommentImg,
+    imageUrl: inventoryManagement1,
   },
   {
-    title: "CorpComment",
+    title: "The Rainy Day Shelf",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "A store front for digital assets.",
+    tags: ["Next.js", "PostgreSQL", "ShadCN", "Tailwind", "Prisma"],
+    imageUrl: theRainyDayShelf1,
   },
   {
-    title: "rmtDev",
+    title: "BrainFlow",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "An AI powered chatbot that helps you contextually recall recorded information from the heaps of data it's fed.",
+    tags: ["Next.js", "TypeScript", "ShadCN", "Tailwind", "ClerK", "MongoDB", "Prisma"],
+    imageUrl: brainFlow1,
   },
   {
     title: "Flowius Manage",
     description:
       "A proprietary management app for 3BL Enterprises. Users can monitor and manage project activities, inventory, and special cases.",
     tags: ["React", "TypeScript", "Firebase", "Kotlin", "Android SDK", "Mapbox"],
-    imageUrl: corpcommentImg,
+    imageUrl: flowiusManage2,
   },
   {
     title: "Flowius Pay",
     description:
       "A proprietary management app for 3BL Enterprises. Users can record, monitor and interpret customer payment information.",
     tags: ["React", "JavaScript", "Firebase", "Kotlin", "Android SDK", "Mapbox"],
-    imageUrl: rmtdevImg,
+    imageUrl: flowiusPay5,
   },
 ] as const;
 
