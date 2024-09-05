@@ -12,7 +12,26 @@ import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from "@/context/theme-context";
 
 export default function Experience() {
-  const { ref } = useSectionInView("Experience");
+  // State to track if the section has been viewed once
+  const [hasBeenViewed, setHasBeenViewed] = useState(false);
+
+  //For this section I have use this here to handle hasBeenViewed 
+  // Intersection observer to detect if the section is in view
+  const { ref, inView } = useInView({
+    threshold: 0.3,
+    triggerOnce: false, // Control the "once" behavior with hasBeenViewed
+  });
+
+  const { setActiveSection, timeOfLastClick } = useActiveSectionContext();
+
+  useEffect(() => {
+    // Trigger only if section is in view and hasn't been viewed yet
+    if (inView && !hasBeenViewed && Date.now() - timeOfLastClick > 1000) {
+      setActiveSection("Experience");
+      setHasBeenViewed(true); // Mark as viewed
+    }
+  }, [inView, setActiveSection, timeOfLastClick, hasBeenViewed]);
+  
   const { theme } = useTheme();
 
   return (
@@ -22,6 +41,7 @@ export default function Experience() {
         {experiencesData.map((item, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement
+              visible={inView || hasBeenViewed} // Show if in view OR if it has been viewed
               contentStyle={{
                 background:
                   theme === "light" ? "#f3f4f6" : "rgba(255, 255, 255, 0.05)",
