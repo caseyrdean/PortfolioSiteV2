@@ -29,11 +29,11 @@ export default function About() {
 
       <p>
         <span>When I'm not coding I enjoy </span>
-        <span className="italic">playing video games, watching movies, </span>
+        <span className="italic">the company of good music, </span>
         and
         <span className="italic"> spending time with friends.</span> I enjoy
         socializing with strangers that share my passion. I like building giant
-        things out of small things that have harmony. I like order (66).
+        systems out of small things that have harmony.
       </p>
     </motion.section>
   );
