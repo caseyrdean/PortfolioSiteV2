@@ -1,5 +1,5 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
+
 import tbiImg from "@/public/tbi.png";
 import digibleImg from "@/public/digible.png";
 import buddleImg from "@/public/buddle.png";
@@ -10,6 +10,8 @@ import biblereadImg from "@/public/bibleread.png";
 import addrewmutchDDSImg from "@/public/andrewmutchdds.png";
 import tgmercerImg from "@/public/tg-mercer.jpeg";
 import mrmarcelImg from "@/public/mrmarcel.png";
+import betterinPersonImg from "@/public/better-in-person.png";
+import collectImg from "@/public/collect-rn.png";
 
 export const links = [
   {
@@ -40,32 +42,92 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Software Developer",
-    location: "Viulogix - Los Angeles, CA (Remote)",
+    title: "React Native Developer",
+    location: "UtiliSource | St Louis, Missouri, USA | Remote",
     description:
-      "Designed and developed Vue.js, React web and React Native mobile apps for large construction companies.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - Present",
+      "Developed mobile app using React Native to match web application feature parity for UtiliSource LLC. Organized codebase repository with atomic components approach for future collaboration and consistency. Identified MVP requirements with Stakeholders to prioritize features for the mobile app development.",
+   // icon: React.createElement(CgWorkAlt),
+    date: "Aug 2024 - Present",
   },
   {
-    title: "Front-End Developer",
-    location: "Infinite Communications - Sherman Oaks, CA",
+    title: "React Developer",
+    location: "UtiliSource | St Louis, Missouri, USA | Remote",
     description:
-      "Maximized marketing and design efforts for dental offices by adhering to DRY principle. Laravel Blade templates & Custom PHP & CSS WordPress plugins and themes for each dentist's unique style and preferences.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2016 - 2019",
+      "Developed MVP react web application with custom Form builder and renderer, mapping, and real-time updates. Iterated on features based on feedback from testers and stakeholders to enhance user experience. Designed layout and behavior for optimal user interaction and functionality.",
+   // icon: React.createElement(CgWorkAlt),
+    date: "April - Jul 2024",
   },
   {
-    title: "Frontend Web Developer",
-    location: "Monsieur Marcel - Los Angeles, CA",
+    title: "iOS Mobile Developer",
+    location: "Better in Person | Los Angeles, California, USA | Remote",
     description:
-      "Redesign Monsieur Marcel's Wordpress e-commerce website using Javascript, CSS, Animations and React, resulting in an intuitive layout that increased user click-through rate and boosted customer satisfaction.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2014 - 2016",
+      "Developed new features on iOS app using SwiftUI to enhance user experience. Resolved bugs reported by TestFlight users promptly to ensure app stability. Designed and implemented intuitive interfaces based on provided designs.",
+   // icon: React.createElement(CgWorkAlt),
+    date: "July - October 2024",
   },
-] as const;
+  {
+    title: "Angular Developer",
+    location: "City Beauty | Burbank, California, USA | Remote",
+    description:
+      "Developed and designed landing pages in PHP, CSS, and JavaScript using HTMX for City Beauty. Updated and maintained cart pages with Angular 12+ components to enhance user experience. Collaborated with product and marketing teams using Jira and Slack for efficient project management.",
+   // icon: React.createElement(CgWorkAlt),
+    date: "July - October 2024",
+  },
+  {
+    title: "React Native Developer",
+    location: "Viulogix | Raleigh, North Carolina, USA | Remote",
+    description:
+      "Designed and developed an industry scale rental mobile application using React Native. Created custom components to meet specs and requirements for complex rental features. Implemented mapping, camera, and push notifications to enhance user experience.",
+   // icon: React.createElement(CgWorkAlt),
+    date: "May - Sep 2023",
+  },
+  {
+    title: "Software Engineer",
+    location: "Viulogix | Raleigh, North Carolina, USA | Remote",
+    description:
+      "Collaborated on a HR and compliance management system web app using VueJS, Firebase, and .NET. Designed and implemented features with context management using VueX and Pinia. Added end-to-end test cases to ensure coverage and reported progress to Solutions Architect.",
+   // icon: React.createElement(CgWorkAlt),
+    date: "Jan 2021 - Apr 2023",
+  },
+  {
+    title: "Project Manager Scrum Master",
+    location: "Watchtower | Tuxedo Park, USA | Remote",
+    description:
+      "Led an engineering team of Programmers, Designers, and QA Testers at Watchtower, Tuxedo Park, New York. Scheduled and chaired daily and weekly meetings following the Scrum agile framework. Maintained and updated product backlog items according to the agreed roadmap and quarterly goals.",
+    //icon: React.createElement(CgWorkAlt),
+    date: "Jun 2019 - Dec 2020",
+  },
+  {
+    title: "Frontend Developer",
+    location: "Watchtower | Tuxedo Park, USA | Remote",
+    description:
+      `Conducted user research to gather requirements through card sorting, wireframing, and usability testing. 
+      
+      Designed and prototyped UI components using Figma for seamless user experience.Collaborated with stakeholders, programmers, and QA testers to ensure UX requirements were met within project budget. Ensured UI designs were user-friendly and aligned with project goals.`,
+   // icon: React.createElement(CgWorkAlt),
+    date: "Jul 2018 - May 2019",
+  },
+  {
+    title: "UI Developer",
+    location: "Watchtower | Tuxedo Park, USA | Remote",
+    description:
+      `Conducted user research to gather requirements through card sorting, wireframing, and usability testing. 
+      
+      Designed and prototyped UI components using Figma for seamless user experience. Collaborated with stakeholders, programmers, and QA testers to ensure UX requirements were met within project budget. Ensured UI designs were user-friendly and aligned with project goals.`,
+   // icon: React.createElement(CgWorkAlt),
+    date: "Jan 2018 - Jun 2018",
+  },
+];
 
 export const projectsData = [
+  {
+    title: "Collect",
+    tag: "In Progress",
+    description:
+      "React Native application that lets users create Geolocation points and fill out survey forms.",
+    tags: ["React Native", "TypeScript", "WatermelonDB", "Tailwind", "UX", ".NET"],
+    imageUrl: collectImg,
+  },
   {
     title: "Digitalage",
     tag: "Project",
@@ -77,7 +139,7 @@ export const projectsData = [
   },
   {
     title: "Buddle",
-    tag: "In Progress",
+    tag: "On Hold",
     description:
       "Personal React Native project that allows users to create shared funds for different purposes.",
     tags: ["React Native", "UX", "SQL", "Supabase", "Styled Components"],
@@ -85,20 +147,29 @@ export const projectsData = [
     link: "https://github.com/Mannydefreitas7/PiggyPayMobile",
   },
   {
+    title: "Better in Person",
+    tag: "Published",
+    description:
+      "Dating Swift iOS application that lets users find events to meet in person.",
+    tags: ["Swift", "UX", "SwiftUI", "Firebase", "Combine"],
+    imageUrl: betterinPersonImg,
+    link: "https://apps.apple.com/us/app/better-in-person-dating-app/id6504006454",
+  },
+  {
     title: "MapSource",
     tag: "In Progress",
     description:
       "Current long-term React project I am working on for UtiliSource company.",
-    tags: ["React", ".NET", "C#", "MUI"],
+    tags: ["React", ".NET", "C#", "MUI", "Redux", "Azure"],
     link: "https://opsource.us/",
     imageUrl: mapsourceImg,
   },
   {
-    title: "JW.ORG",
+    title: "Watchtower",
     tag: "Published",
     description:
-      "Volunteer work: UX research methods such as surveys and usability testing",
-    tags: ["UX", "Usability Testing", "Accessibility", "Figma", "Prototype"],
+      "UI Development and Usability Testing for JW.org's Watchtower Library and internal pusblishing tools.",
+    tags: ["UX", "VueJS", "Accessibility", "Figma", "Prototype", "Docusaurus"],
     link: "https://www.jw.org/en/",
     imageUrl: jwImg,
   },
@@ -107,7 +178,7 @@ export const projectsData = [
     tag: "Published",
     description:
       "Redesigned Wordpress company's website to intregrate E-Commerce solution.",
-    tags: ["PHP", "Custom Theme", "WooCommerce", "MailChimp", "UX"],
+    tags: ["PHP", "Custom Theme", "Angular", "MailChimp", "UX"],
     link: "https://www.mrmarcel.com/",
     imageUrl: mrmarcelImg,
   },
@@ -164,6 +235,7 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "React",
+  "React Native",
   "VueJS",
   "Nuxt",
   "Next.js",

@@ -31,18 +31,18 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/profile.jpg"
-              alt="Manuel De Freitas's portrait"
-              width="256"
-              height="256"
+              src="/profile1.jpeg"
+              alt="Emmanuel De Freitas's portrait"
+              width="512"
+              height="512"
               quality="95"
               priority={true}
-              className="h-32 w-32 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-48 w-48 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
 
           <motion.span
-            className="absolute bottom-0 right-0 text-4xl"
+            className="absolute bottom-5 right-1 text-5xl"
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{
@@ -62,7 +62,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Manuel.</span> <br />{" "}
+        <span className="font-bold">Hello, I'm Emmanuel.</span> <br />{" "}
         <span className="text-lg">Turning Code into User Delight 📱</span>
       </motion.h1>
 
@@ -82,16 +82,16 @@ export default function Intro() {
             setTimeOfLastClick(Date.now());
           }}
         >
-          Contact me here{" "}
+          Contact me{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/CV.pdf"
+          href="/Emmanuel-Software-Engineer-cv.pdf"
           download
         >
-          Download CV{" "}
+          My Resume{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 

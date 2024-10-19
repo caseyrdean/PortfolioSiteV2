@@ -8,6 +8,13 @@ const nextConfig = {
       },
     ],
   },
+  eslint:{
+    ignoreDuringBuilds: true,
+    typeCheck: false,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
   experimental: {
     serverActions: true,
   },

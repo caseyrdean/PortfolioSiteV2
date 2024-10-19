@@ -21,14 +21,14 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
         Welcome to my corner of the digital universe! I'm{" "}
-        <strong>Manuel De Freitas</strong>, a seasoned Software Engineer based
+        <strong>Emmanuel De Freitas</strong>, a seasoned Software Engineer based
         in sunny Los Angeles, California, specializing in frontend development.
-        With over four years of experience at{" "}
+        With over 4 years of experience at{" "}
         <a
-          href="https://www.viulogix.com/"
+          href="https://utilisource.us/"
           className="text-pink-700 dark:text-pink-300 hover:underline"
         >
-          Viulogix
+          UtiliSource
         </a>
         , I've been the driving force behind creating web and mobile apps for
         major construction companies. My mission?{" "}
@@ -40,20 +40,11 @@ export default function About() {
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
-        is <span className="font-medium">React, Next.js, Node.js, and SQL</span>
+        is <span className="font-medium">React, React Native, Next.js, Node.js, and SQL</span>
         . I am always looking to learn new technologies. I am currently looking
         for a <span className="font-medium">full-time position</span> as a
-        software developer.
+        Mid-Senior Software Engineer.
       </p>
-      <div
-        className="badge-base LI-profile-badge"
-        data-locale="en_US"
-        data-size="large"
-        data-theme={isDarkMode ? "dark" : "light"}
-        data-type="HORIZONTAL"
-        data-vanity="software-engineer-manuel-defreitas"
-        data-version="v1"
-      ></div>
     </motion.section>
   );
 }
