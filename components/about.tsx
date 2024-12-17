@@ -18,32 +18,19 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
+
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+      A highly skilled and experienced <span className="font-medium">UI/UX Developer with over 13 years of expertise</span> in designing and developing intuitive, user-centric web applications. Proficient in front-end technologies including HTML5, CSS3, Bootstrap, Tailwind, SCSS, JavaScript, React.js, Vue.js, and DOM Manipulation, with a strong focus on creating responsive, accessible, and visually appealing interfaces. Known for delivering high-quality, scalable solutions that enhance user experience and meet client requirements.
+</p>
+<p className="mb-3">Specialized in leveraging modern frameworks like React.js and Vue.js to build reusable components and maintainable codebases, along with a proven ability to collaborate effectively with cross-functional teams. Expertise in API integration, cross-browser compatibility, and advanced UI/UX design tools such as Adobe Photoshop, Figma, and Adobe XD.
+</p>
+<p className="mb-3">With a keen eye for detail and a passion for innovation, I have successfully completed several high-impact projects for clients across industries, including healthcare, real estate, and e-commerce. Recognized for problem-solving skills, adaptability, and the ability to stay ahead of emerging trends in front-end development. 
+</p>
+<p>Committed to delivering exceptional results, I bring a blend of technical expertise, creativity, and a user-first approach to every project I undertake.
       </p>
 
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
-      </p>
+      
+
     </motion.section>
   );
 }
