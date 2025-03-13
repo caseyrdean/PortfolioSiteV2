@@ -18,15 +18,15 @@ export default function Project({
     target: ref,
     offset: ["0 1", "1.33 1"],
   });
-  const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
-  const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
+  const scale_progess = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
+  const opacity_progess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
 
   return (
     <motion.div
       ref={ref}
       style={{
-        scale: scaleProgess,
-        opacity: opacityProgess,
+        scale: scale_progess,
+        opacity: opacity_progess,
       }}
       className="group mb-3 sm:mb-8 last:mb-0"
     >
