@@ -20,29 +20,28 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
         After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        <span className="font-medium">Entrepreneurship</span>, I decided to pursue my
+        passion for Innovation and Solutions Architecture. I have since been obsessed with AWS and have learned{" "}
+        <span className="font-medium">all of its core components</span>.{" "}
+        <span className="italic">My favorite part of cloud computing</span> is dreaming up new and novel ways to build. I <span className="underline">love</span> the
+        feeling of creating something new and introducing it to the world!. The core services I know are
+        {" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+         the ones offered in certifications up to AWS Solutions Architect (Associate) as well as many of the AI/ML modules like Bedrock, Kendra, Polly, and Rekognition 
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
+        . I am also familiar with Cursor, Snowflake, Datadog, and many other tools. I am always looking to
         learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        <span className="font-medium">full-time position</span> as an AWS Solutions
+        Architect.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        <span className="italic">When I'm not dreaming up new ways to configure new use cases</span>, I enjoy
+        jiu jitsu, video games, long distance backpacking, and playing with my dog. I also enjoy{" "}
+        <span className="font-medium">volunteering with inner city shelters, especially with bully breeds.</span>. I am currently
+        learning and am excited about{" "}
+        <span className="font-medium">using my newfound skills to create chatbots that replicate human conversations.</span>. I'm also
+        learning how to build front end applications with React and Next.js like this portfolio!
       </p>
     </motion.section>
   );
