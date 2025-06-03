@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://media.licdn.com/dms/image/v2/D4E03AQG57j_QSrvwCA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1708525166013?e=1754524800&v=beta&t=qcPp9AHvSWRr5Y38oHZV9N98jo_dFxwDMxNY3bCFads"
+              src="/Dean Headshot.png"
               alt="Casey Dean Portrait"
               width="192"
               height="192"
@@ -63,7 +63,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Casey.</span> I'm a{" "}
-        <span className="font-bold">AWS Solutions Architect</span> with{" "}
+        <span className="font-bold">Solutions Architect</span> with{" "}
         <span className="font-bold">10 years</span> of experience. I enjoy
         building <span className="italic">innovative solutions</span>. My focus is{" "}
         <span className="underline">AWS</span>.
@@ -100,7 +100,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://linkedin.com/caseyrdean"
+          href="https://www.linkedin.com/in/caseyrdean/"
           target="_blank"
         >
           <BsLinkedin />
