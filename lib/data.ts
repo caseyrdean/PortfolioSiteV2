@@ -1,7 +1,9 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaReact, FaAws, FaNotesMedical } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import { MdMilitaryTech, MdSchool, MdBusinessCenter } from "react-icons/md";
+import { GiSubmarine } from "react-icons/gi";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
