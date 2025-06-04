@@ -35,28 +35,60 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "United States Coast Guard",
+    location: "October 2011 ",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      "I was a Boatswains Mate 3rd Class focusing on counter narcotics and counter terrorism.",
+    icon: React.createElement(MdMilitaryTech),
+    date: "2011 - 2015",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "University of Wisconsin-Whitewater",
+    location: "Whitewater, WI",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "I obtained my undergraduate degree in entrepreneurship. 3.6 GPA. President of Student Veterans Organization. Project Leader Enactus. Member College entreprenurship Organization. 2x winner of Warhawk business Plan competition. Athlete (Wrestling)",
+    icon: React.createElement(MdSchool),
+    date: "2015 - 2018",
   },
   {
-    title: "Full-Stack Developer",
+    title: "Elegant Solutions",
     location: "Houston, TX",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Deconstructed Emergency Room efficiency consulting and used IoT to create first of its kind emergency room analytics that gave clarity to patients, and their families while inreasing ER efficiency. Sold company in 2019 ",
+    icon: React.createElement(FaNotesMedical),
+    date: "2016 - 2018",
+  },
+  {
+    title: "Stryker",
+    location: "Kalamazoo, MI",
+    description:
+      "Took new talent team from Brass Ring to Workday, redefined Talent KPI's, redesigned and created new dashboarding to consolidate 40 reports, trained 700 global recruiters, improved many talent KPI's. ",
+    icon: React.createElement(FaNotesMedical),
+    date: "2018 - 2020",
+  },
+  {
+    title: "Wilde Group",
+    location: "Raleigh, NC",
+    description:
+      "Created consulting firm that specialized in innovation and technology. Clients included Fortune 500 companies.",
+    icon: React.createElement(MdBusinessCenter),
+    date: "2019 - 2022",
+  },
+  {
+    title: "Sopheon",
+    location: "Raleigh, NC",
+    description:
+      "Did implemetation and Solutions Architecture for Sopheon products. Focused on Aerospace and Defense clients. Specifically, nuclear submarines, and F-35 programs.",
+    icon: React.createElement(GiSubmarine),
+    date: "2022 - 2025",
+  },
+  {
+    title: "Jaggaer",
+    location: "Jersey City, NJ",
+    description:
+      "Implementation and Solution Architecture of Jaggaer AI/ML products. Supply Chain focus.,
+    icon: React.createElement(FaAws),
+    date: "Current",
   },
 ] as const;
 
