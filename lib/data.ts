@@ -7,6 +7,7 @@ import { GiSubmarine } from "react-icons/gi";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import qsdemoImg from "@/public/QSDEMO.png";
 
 export const links = [
   {
@@ -100,7 +101,7 @@ export const projectsData = [
     description:
       " I am currently in the process of using AWS modules to recreate a Bloomberg Terminal. Minus the proprietary stuff of course.",
     tags: ["Kinesis", "Lambda", "Timestream", "QuickSight", "SageMaker", "DynamoDB", "Cognito", "CloudFront", "Glue", "Amplify", "CloudWatch"],
-    imageUrl: QSDEMO,
+    imageUrl: qsdemoImg,
   },
   {
     title: "rmtDev",
