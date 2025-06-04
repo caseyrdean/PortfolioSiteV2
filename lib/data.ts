@@ -86,7 +86,7 @@ export const experiencesData = [
     title: "Jaggaer",
     location: "Jersey City, NJ",
     description:
-      "Implementation and Solution Architecture of Jaggaer AI/ML products. Supply Chain focus.,
+      "Implementation and Solution Architecture of Jaggaer AI/ML products. Supply Chain focus.",
     icon: React.createElement(FaAws),
     date: "Current",
   },
