@@ -96,11 +96,11 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Replicant Bloomberg Terminal",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      " I am currently in the process of using AWS modules to recreate a Bloomberg Terminal. Minus the proprietary stuff of course.",
+    tags: ["Kinesis", "Lambda", "Timestream", "QuickSight", "SageMaker", "DynamoDB", "Cognito", "CloudFront", "Glue", "Amplify", "CloudWatch"],
+    imageUrl: QSDEMO,
   },
   {
     title: "rmtDev",
