@@ -48,7 +48,7 @@ export const experiencesData = [
     title: "University of Wisconsin-Whitewater",
     location: "Whitewater, WI",
     description:
-      "I obtained my undergraduate degree in entrepreneurship. 3.6 GPA. President of Student Veterans Organization. Project Leader Enactus. Member College entreprenurship Organization. 2x winner of Warhawk business Plan competition. Athlete (Wrestling)",
+      "I obtained my undergraduate degree in entrepreneurship. 3.6 GPA. President of Student Veterans Organization. Project Leader Enactus. Member College Entreprenurship Organization. 2x winner of Warhawk Business Plan Competition. Student Athlete (Wrestling)",
     icon: React.createElement(MdSchool),
     date: "2015 - 2018",
   },
@@ -56,7 +56,7 @@ export const experiencesData = [
     title: "Elegant Solutions",
     location: "Houston, TX",
     description:
-      "Deconstructed Emergency Room efficiency consulting and used IoT to create first of its kind emergency room analytics that gave clarity to patients, and their families while inreasing ER efficiency. Sold company in 2019 ",
+      "Deconstructed Emergency Room efficiency consulting and used IoT to create first of its kind emergency room analytics that gave clarity to patients, and their families while inreasing ER efficiency. Increased participation in federal funding surveying by 80% Sold company in 2019 ",
     icon: React.createElement(FaNotesMedical),
     date: "2016 - 2018",
   },
@@ -64,7 +64,7 @@ export const experiencesData = [
     title: "Stryker",
     location: "Kalamazoo, MI",
     description:
-      "Took new talent team from Brass Ring to Workday, redefined Talent KPI's, redesigned and created new dashboarding to consolidate 40 reports, trained 700 global recruiters, improved many talent KPI's. ",
+      "Took new talent team from Brass Ring to Workday, redefined Talent KPI's, cleaned data, redesigned 40 reports and created dashboards for them. Trained 700 global recruiters, improved many talent KPI's. ",
     icon: React.createElement(FaNotesMedical),
     date: "2018 - 2020",
   },
@@ -80,7 +80,7 @@ export const experiencesData = [
     title: "Sopheon",
     location: "Raleigh, NC",
     description:
-      "Did implemetation and Solutions Architecture for Sopheon products. Focused on Aerospace and Defense clients. Specifically, nuclear submarines, and F-35 programs.",
+      "Did implementation and Solutions Architecture for Sopheon products. Focused on Aerospace and Defense clients. Specifically, nuclear submarines, and F-35 programs. Won multiple awards and received challenge coin from program head.",
     icon: React.createElement(GiSubmarine),
     date: "2022 - 2025",
   },
