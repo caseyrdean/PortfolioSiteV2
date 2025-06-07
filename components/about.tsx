@@ -11,14 +11,14 @@ export default function About() {
   return (
     <motion.section
       ref={ref}
-      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
+      className="mb-28 max-w-[58.5rem] text-center leading-10 sm:mb-40 scroll-mt-28"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
+      <p className="mb-3 text-lg sm:text-xl">
         After graduating with a degree in{" "}
         <span className="font-medium">Entrepreneurship</span>, I decided to pursue my
         passion for Innovation and Solutions Architecture. I have since been obsessed with AWS and have learned{" "}
@@ -35,7 +35,7 @@ export default function About() {
         Architect.
       </p>
 
-      <p>
+      <p className="text-lg sm:text-xl">
         <span className="italic">When I'm not dreaming up new ways to configure new use cases</span>, I enjoy
         jiu jitsu, video games, long distance backpacking, and playing with my dog. I also enjoy{" "}
         <span className="font-medium">volunteering with inner city shelters, especially with bully breeds.</span>. I am currently
