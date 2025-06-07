@@ -62,11 +62,12 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Casey.</span> I'm a{" "}
-        <span className="font-bold">Solutions Architect</span> with{" "}
-        <span className="font-bold">10 years</span> of experience. I enjoy
-        building <span className="italic">innovative solutions</span>. My focus is{" "}
-        <span className="underline">AWS</span>.
+        <span className="font-bold">Hello, I'm Casey.</span> I'm an{" "}
+        <span className="font-bold">innovation-focused consultant</span> and{" "}
+        <span className="font-bold">former entrepreneur</span> transitioning into{" "}
+        <span className="font-bold">AWS Solutions Architecture</span>. I bring hands-on experience designing{" "}
+        <span className="italic">scalable, cloud-native platforms</span>, aligning technical solutions with business needs, and driving impact through{" "}
+        <span className="underline">data, automation, and stakeholder collaboration</span>.
       </motion.h1>
 
       <motion.div
