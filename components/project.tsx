@@ -30,8 +30,8 @@ export default function Project({
       }}
       className="group mb-3 sm:mb-8 last:mb-0"
     >
-      <section className="bg-gray-100 max-w-[54.6rem] border border-black/5 rounded-lg overflow-hidden flex relative sm:h-[26rem] hover:bg-gray-200 transition dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
-        <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 w-1/2 flex flex-col h-full">
+      <section className="bg-gray-100 max-w-[54.6rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[26rem] hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
+        <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
           <h3 className="text-3xl font-semibold">{title}</h3>
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70 text-lg">
             {description}
@@ -48,14 +48,33 @@ export default function Project({
           </ul>
         </div>
 
-        <div className="w-1/2 flex items-center justify-center h-full">
+        <motion.div
+          initial={{ opacity: 0, scale: 0 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            type: "spring",
+            stiffness: 120,
+            delay: 0.1,
+            duration: 0.7,
+          }}
+          className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
+            transition
+            group-hover:scale-[1.04]
+            group-hover:-translate-x-3
+            group-hover:translate-y-3
+            group-hover:-rotate-2
+            group-even:group-hover:translate-x-3
+            group-even:group-hover:translate-y-3
+            group-even:group-hover:rotate-2
+            group-even:right-[initial] group-even:-left-40"
+        >
           <Image
             src={imageUrl}
             alt="Project I worked on"
             quality={95}
-            className="w-[36.7rem] rounded-t-lg shadow-2xl object-contain"
+            className="w-full h-auto rounded-t-lg object-contain"
           />
-        </div>
+        </motion.div>
       </section>
     </motion.div>
   );
