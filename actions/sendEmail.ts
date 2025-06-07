@@ -25,6 +25,9 @@ export const sendEmail = async (formData: FormData) => {
 
   let data;
   try {
+    console.log('Starting email send process...');
+    console.log('API Key configured:', !!process.env.RESEND_API_KEY);
+    
     data = await resend.emails.send({
       from: "Contact Form <onboarding@resend.dev>",
       to: "casey.r.dean1990@gmail.com",
@@ -35,8 +38,14 @@ export const sendEmail = async (formData: FormData) => {
         senderEmail: senderEmail,
       }),
     });
+    
+    console.log('Email sent successfully');
   } catch (error: unknown) {
-    console.error('Email sending error:', error);
+    console.error('Email sending failed:', {
+      error,
+      message: error instanceof Error ? error.message : 'Unknown error',
+      stack: error instanceof Error ? error.stack : undefined
+    });
     return {
       error: getErrorMessage(error),
     };
