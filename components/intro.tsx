@@ -65,9 +65,7 @@ export default function Intro() {
         <span className="font-bold">Hello, I'm Casey.</span> I'm an{" "}
         <span className="font-bold">innovation-focused consultant</span> and{" "}
         <span className="font-bold">former entrepreneur</span> transitioning into{" "}
-        <span className="font-bold">AWS Solutions Architecture</span>. I bring hands-on experience designing{" "}
-        <span className="italic">scalable, cloud-native platforms</span>, aligning technical solutions with business needs, and driving impact through{" "}
-        <span className="underline">data, automation, and stakeholder collaboration</span>.
+        <span className="font-bold">AWS Solutions Architecture</span>. I bring hands-on experience in cloud-native platforms, technical solutions, and driving impact through data and automation.
       </motion.h1>
 
       <motion.div
